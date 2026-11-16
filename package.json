@@ -1,0 +1,29 @@
+{
+  "name": "projectboard",
+  "version": "1.0.0",
+  "description": "A portfolio-ready platform for sharing projects and finding collaborators.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "db:init": "node scripts/initDatabase.js"
+  },
+  "keywords": [
+    "express",
+    "postgresql",
+    "ejs",
+    "collaboration"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
